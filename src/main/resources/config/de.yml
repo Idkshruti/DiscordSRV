@@ -2,11 +2,11 @@
 # Brauchen Sie Hilfe? Treten Sie unserem Discord bei, https://discordsrv.com/discord
 
 # Bitte nicht verändern!
-ConfigVersion: ${version}
+ConfigVersion: 1.25.0
 
 # Bot Token, du weißt nicht, was das ist? Schau dir das Video auf der Pluginseite an!
 # Sie müssen Ihren Server neu starten, nachdem Sie diese Option geändert haben
-BotToken: "BOTTOKEN"
+BotToken: "MTEyMTgyMzUwNzg0ODkwODgxMQ.GKbleA.uUiiTpA-GrCUEsMi97nrr_gbUg0FB04WvMNkpw"
 
 # Kanalverbindungen vom Spiel zu Discord
 # Syntax ist Channels: {"Kanalname im Spiel von Minecraft": "numerische Kanal-ID von Discord", "ein anderer Kanalname im Spiel von Minecraft": "eine andere numerische Kanal-ID von Discord"}
@@ -27,10 +27,10 @@ BotToken: "BOTTOKEN"
 #
 # Der erste Teil von Kanalpaaren ist nicht der Discord-Kanalname!
 # Führen Sie ein "/discord reload" aus, nachdem Sie diese Option zum Anwenden geändert haben
-Channels: {"global": "000000000000000000"}
+Channels: {"global": "1121035109072633869"}
 
 # Konsolenkanal; benötigt eine numerische Kanal-ID (NICHT den Namen!), zum Deaktivieren auf "" setzen
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: "1121224745719976006"
 
 # Der Einladungslink wird den Spielern bei Verwendung von /discord und in der Nachricht angezeigt, die den nicht verbundenen Spielern angezeigt wird, wenn die Verknüpfung erzwungen wird
 DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
@@ -77,11 +77,11 @@ Experiment_JdbcUsername: "username"
 Experiment_JdbcPassword: "password"
 
 # Webhook Lieferung
-Experiment_WebhookChatMessageDelivery: false
+Experiment_WebhookChatMessageDelivery: true
 Experiment_WebhookChatMessageUsernameFormat: "%displayname%"
 Experiment_WebhookChatMessageFormat: "%message%"
-Experiment_WebhookChatMessageUsernameFromDiscord: false
-Experiment_WebhookChatMessageAvatarFromDiscord: false
+Experiment_WebhookChatMessageUsernameFromDiscord: true
+Experiment_WebhookChatMessageAvatarFromDiscord: true
 Experiment_WebhookChatMessageUsernameFilters: {}
 
 # Einbetten und Webhook-Bild-/Avatar-URL-Format
